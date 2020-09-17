@@ -1,0 +1,30 @@
+{
+  "name": "fake-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf node_modules .cache public",
+    "start": "gatsby develop --port $PORT",
+    "dev": "gatsby develop --port $PORT",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.18",
+    "@mdx-js/react": "^1.6.18",
+    "@theme-ui/preset-roboto": "^0.3.0",
+    "@theme-ui/presets": "^0.3.0",
+    "@theme-ui/prism": "^0.3.0",
+    "@vercel/node": "^1.8.2",
+    "gatsby": "^2.24.62",
+    "gatsby-plugin-mdx": "^1.2.40",
+    "gatsby-plugin-react-helmet": "^3.3.11",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-faunadb": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.11.0",
+    "theme-ui": "^0.3.1"
+  }
+}
